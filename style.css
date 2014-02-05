@@ -1,0 +1,127 @@
+* {margin:0; padding:0;}
+html,body {height:100%; width:100%;}
+canvas{display:block;position: absolute;z-index: -1;}
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: Arial;
+	font-size: 18px;
+	background: url("img/bg.jpg");
+}
+
+h1{
+	font-size: 30px;
+}
+
+p {
+	margin: 5px 20px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+a.button{
+	background: darkblue;
+	border-radius: 5px;
+	display: block;
+	font-size: 30px;
+	margin:0 auto;
+	margin-top: 80px;
+	padding: 10px;
+	width:200px;
+}
+
+a.button:hover{
+	background: green;
+	color: #fff;
+	text-decoration: none;
+}
+
+#game{
+	height:100% ;
+	margin:0;
+	padding:0;
+	position: absolute;
+	width:100%;
+}
+
+#gameUi{
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+#gameIntro, #gameOver, #gameSuccess, #gamePause {
+	display:block;
+	height:250px;
+	width:400px;
+	border: 1px solid white;
+	background: rgba(0,0,0,0.5);
+	padding: 40px 0;
+	margin:0 auto;
+	margin-top: 200px;
+	text-align: center;
+	z-index: 1;
+}
+
+#gameIntro{
+	height:400px;
+	margin-top:80px;
+}
+
+#gamePause{
+	height:370px;
+}
+
+#gameStats{
+	background: rgba(0,0,0,0.5);
+	display: none;
+	padding:0;
+	margin: 20px 20px 0 0;
+	position: absolute;
+	z-index: 20;
+}
+
+#log{
+	background: rgba(0,0,0,0.5);
+	display: block;
+	padding:0;
+	float:right;
+	margin: 50px 20px 0px 0px;
+	z-index: 20;
+	font-size: 10px;
+	position:absolute;
+	width:200px;
+	
+}
+
+#logText{
+	display:block;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: -18px;
+}
+
+#gameScore{
+	background: rgba(0,0,0,0.5);
+	margin:0;
+}
+
+#ship{
+	display: none;
+}
+
+#flame{
+	display:none;
+}
+
+#instructions{
+	margin: 20px 0px -30px 0px;
+
+}
